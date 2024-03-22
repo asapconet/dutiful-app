@@ -31,6 +31,7 @@ export function LoginForm({ onNextStep }: any) {
       router.push("/");
       reset();
     } else if (data?.status === 400) {
+      router.push("/");
       console.error("something went wrong"); // to be replaced with pending BE response msg
     }
   }, [data, reset, router]);

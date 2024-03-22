@@ -9,14 +9,14 @@ import timer from "../../assets/images/time.png";
 
 export default function HomePage() {
   return (
-    <section className="text-6xl min-h-[70vh] mt-[96px]">
+    <section className="text-6xl min-h-[70vh] mt-[96px] w-[1312px">
       <div className="grid grid-cols-2 gap-1 w-full min-h-[634px]">
         <div className="col-span-1 h-full flex justify-center items-center">
           <div className=" text-dark_gray w-[559px]">
-            <p className="text-[2.1rem] text-recoleta font-bold py-12 leading-normal">
+            <p className="text-[2.1rem] font-recoleta font-bold py-12 leading-normal">
               List and grow your business  with just few clicks
             </p>
-            <p className="text-[1.3rem] text-dark_gray leading-normal">
+            <p className="text-[1.3rem] text-dark_gray font-circular leading-normal">
               Eliminate manual work and save time by listing your business or
               service on the best business directory in Nigeria.
             </p>
@@ -62,7 +62,7 @@ export default function HomePage() {
             <p className="text-[2.1rem] text-recoleta font-bold py-12 leading-normal">
               Collect reviews and ratings from customers
             </p>
-            <p className="text-[1.3rem] text-dark_gray leading-normal ">
+            <p className="text-[1.3rem] text-circular text-dark_gray leading-normal ">
               Accelerate your business reputation by 90% and gain social
               proof through reviews and ratings requested from customers.
             </p>

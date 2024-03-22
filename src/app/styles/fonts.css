@@ -1,6 +1,16 @@
 @font-face {
   font-family: 'Recoleta Alt';
-  src: url('./fonts/RecoletaAlt-Regular.ttf') format('truetype');
+  src: url('../assests/RecoletaFont/RecoletaAlt-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* @font-face {
+  font-family: "Recoleta Alt";
+  src: url("https://fonts.googleapis.com/css2?family=Recoleta+Alt&display=swap");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("https://fonts.googleapis.com/css2?family=Circular+Std:wght@400;700&display=swap");
+} */
