@@ -21,11 +21,11 @@ const Header = () => {
   };
   return (
     <header className="fixed top-0 w-full z-[100]">
-      <nav className="flex items-center px-[2rem] bg-white justify-between gap-2 min-h-[90px] w-full">
+      <nav className="flex items-center px-4 md:px-[2rem] bg-white justify-between gap-2 min-h-[90px] w-full">
         <Link href={"/"}>
           <AppLogo />
         </Link>
-        <ul className="flex items-center gap-10">
+        <ul className="lg:flex hidden items-center gap-10">
           <CiSearch size={30} />
           {NavRoutes.map(({ name, link }, idx) => {
             const isPathname = link ? pathname.includes(link) : false;
@@ -42,7 +42,7 @@ const Header = () => {
             );
           })}
         </ul>
-        <section className="flex items-center gap-1">
+        <section className="md:flex hidden items-center gap-1">
           <PrimaryButton onClick={handleLogin}>Login</PrimaryButton>
           <PrimaryButton onClick={handleSignUp}>Sign Up</PrimaryButton>
         </section>

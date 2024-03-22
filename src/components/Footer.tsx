@@ -59,9 +59,9 @@ const FooterLink = ({ link, children }: any) => (
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="h-[415px] bg-primary w-full">
-      <div className="mx-[7rem] pt-[3.5rem] h-full">
-        <div className="grid grid-cols-4 justifyItems-center">
+    <footer className="min-h-[415px] bg-primary w-full">
+      <div className="mx-[1rem] lg:mx-[7rem] pt-[3.5rem] h-full">
+        <div className="grid md:grid-cols-4 justifyItems-center">
           {footData.map((el, idx) => (
             <Link
               key={idx}
@@ -86,23 +86,23 @@ const Footer = () => {
         </div>
 
         <div
-          className="py-8 my-8 border-y-[1px] border-y-[#63428E] text-[1.15rem] w-full
-           flex items-center justify-between text-white "
+          className="py-8 my-8 md:border-y-[1px] border-y-[#63428E] text-[1.15rem] w-full
+           flex flex-col md:flex-row gap-4 md:items-center justify-between text-white "
         >
           {" "}
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-4 md:gap-10">
             <p className="font-[500]"> Follow us</p>
             <FaFacebookF /> <FaInstagram /> <FaTwitter /> <FaYoutube />
             <FaLinkedinIn />
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 border-t-[1px] border-y-[#63428E] pt-4 md:pt-0">
             <p className="font-[500]"> Download the app</p> <FaApple />{" "}
             <FaGooglePlay />
           </div>
         </div>
 
-        <div className="flex items-center gap-16">
-          <p className="font-[450] text-[1.15rem] text-white">
+        <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-16">
+          <p className="font-[450] flex text-[1rem] md:text-[1.15rem] text-white">
             {" "}
             &copy; {year} Dutiful &reg;
           </p>{" "}

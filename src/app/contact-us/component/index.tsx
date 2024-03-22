@@ -14,12 +14,12 @@ export const ContactForm = () => {
           business listed.
         </p>
       </div>
-      <div className="flex justify-between absolute top-52 w-full px-44">
+      <div className="flex flex-col lg:flex-row gap-4 md:justify-between mt-8 lg:mt-0 lg:absolute lg:top-52 w-full px-4 lg:px-44">
         <ContactCard />
         <ContactCard />
         <ContactCard />
       </div>
-      <div className="flex justify-center mt-[12rem] mb-[4rem]">
+      <div className="flex justify-center mt-[4rem] lg:mt-[12rem] px-4 mb-[4rem]">
         <ContactInputs />
       </div>
     </div>

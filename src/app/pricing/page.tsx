@@ -6,19 +6,19 @@ import { PlanTable } from "./components/PlanTable";
 function Pricing() {
   return (
     <section className="flex flex-col justify-center bg-bg">
-      <div className="flex flex-col justify-center mt-[90px] relative">
-        <div className="h-[200px] bg-white text-center text-black w-full pt-8">
-          <p className="text-[2.1rem] font-bold">
+      <div className="flex flex-col justify-center px-4 md:px-0 mt-[90px] relative">
+        <div className="h-[200px] bg-white text-left md:text-center text-black w-full pt-8">
+          <p className="text-[2.1rem] text-circular font-bold">
             Plans to Suit Your Business Budget
           </p>
-          <p className="text-[1.3rem] recoleta text-center text-gray-500 leading-[1.8rem]">
+          <p className="text-[1rem] md:text-[1.3rem] text-recoleta text-left md:text-center text-gray-500 leading-[1.8rem]">
             Our fully organized plans deliver valuable content that showcases
             your services and skills, <br />
             drives Lead, covers all features, and gives customers a clear idea
             to be able to choose your services.
           </p>
         </div>
-        <div className="mx-[2.5rem] flex justify-center mt-[4rem] mb-[1rem] gap-8">
+        <div className="md:mx-[2.5rem] flex flex-col items-center lg:flex-row justify-center mt-[4rem] mb-[1rem] gap-8">
           {PlanOptions.map((option, idx) => (
             <PlanCard
               key={idx}

@@ -3,7 +3,7 @@ import { Avatar } from "@/assets/Avater";
 export function PlainCard({ className, title, text, ...rest }: any) {
   return (
     <div
-      className={`min-h-[239px] w-[480px] p-6 rounded-3xl bg-white
+      className={`min-h-[239px] sm:w-[480px] p-6 rounded-3xl bg-white
                border-border_gray border absolute ${className} `}
     >
       <div className="flex items-center gap-2">
