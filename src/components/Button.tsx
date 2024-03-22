@@ -21,7 +21,7 @@ export const SecondaryButton = ({ children, ...rest }: ButtonProp) => {
       disabled={rest.isLoading}
       type={rest.type || "button"}
       onClick={rest.onClick}
-      className={`flex items-center justify-center min-h-[78px] min-w-[174px]
+      className={`flex items-center justify-center min-w-[174px]
       hover:border-[2px] hover:text-border_purple text-white bg-border_purple
       hover:bg-white border-border_purple rounded-md duration-200  shadow-btn_shadow
       focus:border-[2px] focus:outline-none focus:text-border_purple  py-[17px]

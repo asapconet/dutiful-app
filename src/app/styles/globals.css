@@ -25,6 +25,8 @@ ul {
   scroll-behavior: smooth;
 }
 
+
+
 body {
   font-size: 18px;
   color: rgb(var(--foreground-rgb));
