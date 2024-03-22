@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'Recoleta Alt';
-  src: url('../assests/RecoletaFont/RecoletaAlt-Regular.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('/RecoletaFont/RecoletaAlt-Regular.otf') format('truetype');
+ 
 }
 
 /* @font-face {

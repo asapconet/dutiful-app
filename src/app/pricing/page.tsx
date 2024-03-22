@@ -11,7 +11,7 @@ function Pricing() {
           <p className="text-[2.1rem] font-bold">
             Plans to Suit Your Business Budget
           </p>
-          <p className="text-[1.3rem] text-center text-gray-500 leading-[1.8rem]">
+          <p className="text-[1.3rem] recoleta text-center text-gray-500 leading-[1.8rem]">
             Our fully organized plans deliver valuable content that showcases
             your services and skills, <br />
             drives Lead, covers all features, and gives customers a clear idea
@@ -19,9 +19,9 @@ function Pricing() {
           </p>
         </div>
         <div className="mx-[2.5rem] flex justify-center mt-[4rem] mb-[1rem] gap-8">
-          {PlanOptions.map((option,idx) => (
+          {PlanOptions.map((option, idx) => (
             <PlanCard
-            key={idx}
+              key={idx}
               name={option.name}
               price={option.price}
               duration={option.duration}

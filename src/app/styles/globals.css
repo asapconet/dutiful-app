@@ -19,11 +19,11 @@ ul {
   background: transparent;
 } */
 
-body {
-  font-family: 'Recoleta Alt', sans-serif;
-}
-
-/* Additional styles using Circular Std */
-.font-circular {
+.circular {
   font-family: 'Circular Std', sans-serif;
 }
+
+.recoleta {
+  font-family: 'Recoleta Alt', sans-serif;
+}
+ 

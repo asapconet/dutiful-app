@@ -13,10 +13,10 @@ export default function HomePage() {
       <div className="grid grid-cols-2 gap-1 w-full min-h-[634px]">
         <div className="col-span-1 h-full flex justify-center items-center">
           <div className=" text-dark_gray w-[559px]">
-            <p className="text-[2.1rem] font-recoleta font-bold py-12 leading-normal">
+            <p className="text-[2.1rem] recoleta font-bold py-12 leading-normal">
               List and grow your business  with just few clicks
             </p>
-            <p className="text-[1.3rem] text-dark_gray font-circular leading-normal">
+            <p className="text-[1.3rem] font-[450] text-dark_gray text-circular leading-normal">
               Eliminate manual work and save time by listing your business or
               service on the best business directory in Nigeria.
             </p>
@@ -59,7 +59,7 @@ export default function HomePage() {
         </div>
         <div className="col-span-1 h-full flex justify-center items-center">
           <div className=" text-dark_gray w-[559px]">
-            <p className="text-[2.1rem] text-recoleta font-bold py-12 leading-normal">
+            <p className="text-[2.1rem] recoleta font-bold py-12 leading-normal">
               Collect reviews and ratings from customers
             </p>
             <p className="text-[1.3rem] text-circular text-dark_gray leading-normal ">
@@ -124,7 +124,7 @@ export default function HomePage() {
             <p className="text-[2.1rem] text-recoleta font-bold py-12 leading-normal">
               Accept and sell appointments
             </p>
-            <p className="text-[1.3rem] text-dark_gray leading-normal ">
+            <p className="text-[1.3rem] text-dark_gray leading-normal text-circular ">
               Let customers book their own appointment or consultation. Start
               accepting payments for appointments through your booking page.
             </p>
