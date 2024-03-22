@@ -10,8 +10,8 @@ export const PlanTable = () => {
       <thead className="w-full">
         <tr className="text-price_text text-left">
           <th className="text-[1.5rem]">Features & Services</th>
-          {PlanOptions.map((plan) => (
-            <th className=" px-8">
+          {PlanOptions.map((plan, idx) => (
+            <th key={idx} className=" px-8">
               {plan.name}
               <SecondaryButton className="w-[244px] h-[51px] my-[1rem]">
                 Get Started
@@ -28,7 +28,9 @@ export const PlanTable = () => {
               index % 2 === 0 ? "bg-white" : "bg-transparent"
             } h-[58px] rounded-md`}
           >
-            <td className="w-[32.5%] text-price_text text-[1.25rem]">{feature}</td>
+            <td className="w-[32.5%] text-price_text text-[1.25rem]">
+              {feature}
+            </td>
 
             {values.map((included, index) => (
               <td key={index} className="w-[22.5%] text-center">

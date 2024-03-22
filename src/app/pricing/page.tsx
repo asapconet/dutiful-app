@@ -19,8 +19,9 @@ function Pricing() {
           </p>
         </div>
         <div className="mx-[2.5rem] flex justify-center mt-[4rem] mb-[1rem] gap-8">
-          {PlanOptions.map((option) => (
+          {PlanOptions.map((option,idx) => (
             <PlanCard
+            key={idx}
               name={option.name}
               price={option.price}
               duration={option.duration}
